@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP SOULSCLUB</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Es una pagina para marca de ropa ARGENTINA, llamada SOULSCLUB">
+</head>
+<body>
+    <!------------ HEADER ------------>
+    <header class="header" id="header">
+        <input type="checkbox" name="" id="open-menu" class="header__bgmenu-checkbox">
+        <label for="open-menu" class="header__bgmenu-label" aria-label="boton para desplegar menu de navegacion en movil">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <!------------ NAV ------------>
+        <nav class="header__nav-container" role="navigation">
+            <ul class="header__nav-list" >
+                <li class="header__nav-item"><a href="index.html">HOME</a></li>
+                <li class="header__nav-item nav-item--shop"><a href="shop.html">SHOP</a></li>
+                <li class="header__nav-item"><a href="faqs.html">FAQS</a></li>
+                <li class="header__nav-item"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="header__logo-container" aria-label="logo soulsclub">
+            <a href="index.html" class="header__logo-link">
+                <img src="IMAGES/soulsclublogo.png" alt="LOGO DE SOULSCLUB" class="header__logo">
+            </a>
+        </div>
+        <div class="header__interaccion-container">
+            <div class="header__interaccion-searchbar" aria-label="barra de busqueda">
+                <form action="" class="header__interaccion-searchbar-form">
+                    <input type="text" class="header__interaccion-searchbar-item" placeholder="Busca algo...">
+                    <button class="header__interaccion-searchbar-button">BUTTON</button>
+                </form>
+            </div>
+            <div class="header__interaccion-login" >
+                <a href="" class="header__interaccion-login-link">
+                    <i class="fas fa-user"></i>
+                    <h2>Iniciar sesion:</h2>
+                </a>
+            </div>
+            <div class="header__interaccion-cart">
+                <a href="" class="header__interaccion-cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+    </header> 
+
+    <!------------ MAIN ------------>
+    <main class="main" id="main">
+        <section class="main__section-contact-container">
+            <h1 id="contact-title">CONTACTO</h1>
+            <div class="main__contact-container">
+                <form class="main__contact-form-container">
+                    <div class="main__contact-wrapper">
+                        <label for="nombre">NOMBRE</label>
+                        <input type="text" id="nombre" required placeholder="Escriba su nombre...">
+                    </div>
+                    <div class="main__contact-wrapper">
+                        <label for="telefono">TELEFONO</label>
+                        <input type="tel" id="telefono" required placeholder="Escriba su numero de telefono...">
+                    </div>
+                    <div class="main__contact-wrapper">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" required placeholder="Ejemplo@gmail.com">
+                    </div>
+                    <div class="main__contact-wrapper">
+                        <label for="mensaje">MENSAJE</label>
+                        <textarea rows="6" type="text" id="mensaje" required placeholder="Escriba su mensaje..."></textarea>
+                    </div>
+                    <div class="main__contact-wrapper">
+                        <button class="main__contact-button">Enviar</button>
+                    </div>
+                </form>
+                <div class="main__contact-datos-container">
+                    <h2>DATOS DE CONTACTO</h2>
+                    <div class="main__contact-politics-container">
+                        <a href="#" class="main__contact-politics-links">Terminos y condiciones</a>
+                        <a href="#" class="main__contact-politics-links">Politicas de privacidad</a>
+                    </div>
+                    <div class="main__contact-redes-wrapper">
+                        <div class="main__contact-redes-container">
+                            <i class="fa-regular fa-envelope" id="icons-contacto"></i>
+                            <p class="p-contacto"><strong>Email</strong>: <a href="soulsclubar@gmail.com" target="_blank" class="a-contacto">soulsclubar@gmail.com</a></p>
+                        </div>
+
+                        <div class="main__contact-redes-container">
+                            <i class="fa-brands fa-instagram" id="icons-contacto"></i>
+                            <p class="p-contacto"><strong>Instagram</strong>: <a href="https://www.instagram.com/soulsclub.ar/" target="_blank" class="a-contacto"> soulsclub.ar</a></p>
+                        </div>
+
+                        <div class="main__contact-redes-container">
+                            <i class="fa-brands fa-youtube" id="icons-contacto"></i>
+                            <p class="p-contacto"><strong>Youtube</strong>: <a href="https://www.youtube.com/@soulsclubargentina" target="_blank" class="a-contacto">soulsclubargentina</a></p>
+                        </div>
+
+                        <div class="main__contact-redes-container">
+                            <i class="fa-brands fa-tiktok" id="icons-contacto"></i>
+                            <p class="p-contacto"><strong>Tiktok</strong>: <a href="https://www.tiktok.com/@soulsclubargentina" target="_blank" class="a-contacto">soulsclubargentina</a></p>
+                        </div>
+                    </div>
+                    <div class="main__contact-mensajes-contacto-container">
+                        <h3 class="main__contact-mensajes-contacto-items">
+                            Estamos en Contacto
+                        </h3>
+                        <p class="main__contact-mensajes-contacto-items">
+                            Respondemos con rapidez y basta experiencia, para asesorarlo en cada caso.
+                        </p>
+                    </div>
+                    <div class="main__contact-mensajes-atencion-container">
+                        <h3 class="main__contact-mensajes-atencion-item">
+                            Horario de Atención
+                        </h3>
+                        <p class="main__contact-mensajes-atencion-item">
+                            Lunes a Viernes de 8 a 19hs
+                        </p>    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="#" class="scroll-to-top" id="scrollToTopBtn">↑</a>
+
+    <!------------ FOOTER ------------>
+    <footer class="footer" id="footer">
+        <section class="footer__firstsection-container">
+            <div class="footer__firstsection-newsletter-container" aria-label="seccion de news letter">
+                <h2 class="footer__firstsection-newsletter-title">SUSCRIBE TO OUR NEWS LETTER!</h2>
+                <form class="footer__firstsection-newsletter-input-container">
+                    <input type="email" name="email" id="" class="footer__firstsection-newsletter-input" placeholder="Escribe tu mail...">
+                    <button class="footer__firstsection-newsletter-button" aria-label="button to send email for newsletter">
+                        <i class="fas fa-paper-plane"></i> 
+                    </button>             
+                </form>
+                <div class="footer__firstsection-redes-container">
+                    <a href="" class="footer__firstsection-redes-items"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="footer__firstsection-redes-items"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="footer__firstsection-redes-items"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer__firstsection-redirecciones-container redirecciones-container--primarias" aria-label="redirecciones a las otras paginas">
+                <a href="" class="footer__firstsection-redirecciones-links redirecciones--primarias">INICIO</a>
+                <a href="" class="footer__firstsection-redirecciones-links redirecciones--primarias">PRODUCTOS</a>
+                <a href="" class="footer__firstsection-redirecciones-links redirecciones--primarias">FAQS</a>
+                <a href="" class="footer__firstsection-redirecciones-links redirecciones--primarias">CONTACTO</a>
+            </div>
+            <div class="footer__firstsection-redirecciones-container redirecciones-container--secundarias" aria-label="redirecciones secundarias">
+                <a href="" class="footer__firstsection-redirecciones-links redirecciones--secundarias">TERMINOS Y CONDICIONES</a>
+                <a href="" class="footer__firstsection-redirecciones-links redirecciones--secundarias">POLITICAS DE DEVOLUCION</a>
+            </div>
+        </section>
+        <section class="footer__secondsection-container"><p class="footer__secondsection-text">SOULSCLUB TODOS LOS DERECHOS</p></section>
+    </footer>
+</body>
+</html>
